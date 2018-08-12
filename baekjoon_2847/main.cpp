@@ -22,3 +22,15 @@ int main() {
 	cout << r;
 	return 0;
 }
+
+/*
+#include<cstdio>
+int n,a[100],r;
+int main() {
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++) scanf("%d", a+i);
+	for (int i = n-1; i; i--) if (a[i-1] >= a[i]) r+=a[i-1]-a[i]+1,a[i-1] = a[i] - 1;
+	printf("%d", r);
+	return 0;
+}
+*/
